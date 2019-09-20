@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Play Button Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="11" cy="11" r="11"></circle>
+        <filter x="-395.5%" y="-250.0%" width="790.9%" height="790.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="16" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="32" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="29" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0859196037   0 0 0 0 0.0882761637   0 0 0 0 0.0959578804  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sales-Page" transform="translate(-897.000000, -1514.000000)">
+            <g id="Group-14" transform="translate(103.000000, 1203.000000)">
+                <g id="Group" transform="translate(767.000000, 292.000000)">
+                    <g id="Group-4" transform="translate(27.000000, 13.000000)">
+                        <g id="Play-Button-Copy" transform="translate(0.000000, 6.000000)">
+                            <g id="Oval" transform="translate(11.000000, 11.000000) scale(1, -1) translate(-11.000000, -11.000000) ">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#A40000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <polygon id="Triangle" fill="#FFFFFF" transform="translate(12.500000, 11.000000) rotate(90.000000) translate(-12.500000, -11.000000) " points="12.5 8 16 14 9 14"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
